@@ -9,7 +9,7 @@ configure_args="--disable-multilib
  --enable-checking=release
  --enable-host-shared
  --enable-languages=jit"
-hostmakedepends="pkg-config tar"
+hostmakedepends="pkg-config tar texinfo"
 makedepends="gmp-devel mpfr-devel libmpc-devel"
 short_desc="Just-In-Time Compilation using GCC"
 maintainer="Arthur Evstifeev <mail@ap4y.me>"
